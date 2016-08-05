@@ -200,7 +200,7 @@ aside.case-study-sidebar h2 {
 
 .about_header {
 	margin: 0 0 80px;
-	background: url("http://localhost:8888/accelerate/wp-content/uploads/2016/08/DeathtoStock_NYC6.jpg") no-repeat scroll left center / cover rgba(0,0,0,0);
+	background: url("img/DeathtoStock_NYC6.jpg") no-repeat scroll left center / cover rgba(0,0,0,0);
 	height: 240px;
 	padding-top: 80px;
 	text-align: center;
@@ -294,3 +294,7 @@ aside.case-study-sidebar h2 {
 	font-weight: bold;
 }
 
+.contact_us a {
+	color: #ffffff;
+}
+}
