@@ -195,3 +195,102 @@ aside.case-study-sidebar h2 {
 	font-weight: bold;
 	border: 0px;
 }
+
+/* about page styling */
+
+.about_header {
+	margin: 0 0 80px;
+	background: url("http://localhost:8888/accelerate/wp-content/uploads/2016/08/DeathtoStock_NYC6.jpg") no-repeat scroll left center / cover rgba(0,0,0,0);
+	height: 240px;
+	padding-top: 80px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 25px;
+}
+
+.about_header_text {
+	width: 550px;
+	margin-right: auto;
+	margin-left: auto;
+	line-height: 160%;
+}
+
+.about_header_text span {
+	color: #45ac9d;
+}
+
+.our_services {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+.our_services h4 {
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.individual_services_image_left {
+	float: left;
+	width: 250px;
+	margin: 30px 0 20px 0;
+}
+
+.individual_services {
+	margin-right: auto;
+	margin-left: auto;
+	vertical-align: top;
+	width: 880px;
+}
+
+.individual_services_text {
+	float: left;
+	width: 600px;
+	margin-bottom: 50px;
+}
+
+.individual_services_text h3 {
+	font-size: 22px;
+}
+
+.individual_services_image_right {
+	float: right;
+	width: 250px;
+	margin: 30px 0 20px 30px;
+}
+
+.break { 
+	clear: both;
+}
+
+.about_contact {
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px 0 50px 0;
+	border-top: 1px solid #dddddd;
+	vertical-align: top;
+}
+
+.about_contact_text {
+	float: left;
+	text-align: center;
+	padding: 10px 0 50px 0;
+	width: 450px;
+}
+
+.about_contact_text h2 {
+	font-size: 22px;
+}
+
+.contact_us {
+	background-color: #45ac9d;
+	width: 200px;
+	padding: 15px 20px 15px 20px; 
+	color: #ffffff;
+	float: left;
+	margin-top: 27px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+
