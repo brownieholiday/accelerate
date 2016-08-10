@@ -12,6 +12,8 @@
 
 @import url("../accelerate-theme/style.css");
 
+@import 'https://fonts.googleapis.com/css?family=Pacifico';
+
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
 }
@@ -240,7 +242,7 @@ aside.case-study-sidebar h2 {
 	margin-right: auto;
 	margin-left: auto;
 	vertical-align: top;
-	width: 880px;
+	width: 890px;
 }
 
 .individual_services_text {
@@ -297,4 +299,35 @@ aside.case-study-sidebar h2 {
 .contact_us a {
 	color: #ffffff;
 }
+
+/* 404 page styling */
+
+.error-image {
+	background: url("img/pug.png") no-repeat center center;
+	width: 800px;
+	height: 324px;
+	margin-right: auto;
+	margin-left: auto;
 }
+
+.error-text-headline h2 {
+	font-size: 60px;
+	text-align: center;
+	color: #45ac9d;
+	margin-top: 10px;
+	font-family: 'Pacifico', cursive;
+	font-weight: normal;
+}
+
+.error-text {
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 40px;
+}
+
+.error-text a {
+	color: #45ac9d;
+	font-weight: bold;
+}
+
