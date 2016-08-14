@@ -28,6 +28,7 @@
 
 .blog-post {
 	width: 50%;
+	display: inline-block;
 }
 
 .blog-post h4 {
@@ -44,7 +45,7 @@
 }
 
 .blog-post .read-more-link {
-	font-size: 24px;
+	font-size: 16px;
 	font-family: 'Montserrat';
 	font-weight: bold;
 	color: #45ac9d;
@@ -78,6 +79,48 @@ li.individual-featured-work {
 	font-weight: normal;
 	margin-top: 18px;
 	margin-bottom: 140px;
+}
+
+/* tweet on front page */
+
+.twitter {
+	float: right;
+	width: 50%;
+	display: inline-block;
+	margin-top: 16px;
+}
+
+.twitter h3.widget-title {
+	font-size: 16px;
+	font-family: 'Montserrat';
+	color: #a6a6a6;
+	text-transform: uppercase;
+}
+
+.twitter ul.tweets {
+	list-style-type: none;
+}
+
+#pi_simpletwittertweets-2 h3::after {
+    content: "@Accelerate";
+    display: block;
+    color: #3b3b3b;
+    margin-top:36px;
+    text-transform: none;
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.follow-us a {
+	font-size: 16px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	color: #45ac9d;
+	text-transform: uppercase;
+	margin-left: 45px;
+	margin-top: 25px;
 }
 
 /* Case Studies */
@@ -331,3 +374,8 @@ aside.case-study-sidebar h2 {
 	font-weight: bold;
 }
 
+/* Sidebar */
+
+#mc4wp_form_widget-2 h2 {
+	margin-bottom: 15px;
+}

@@ -56,12 +56,29 @@ get_header(); ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 				<h2><?php the_title(); ?></h2>
 				<?php the_excerpt(); ?>
-				<a href="<?php the_permalink(); ?>" class="read-more-link">Read More </span>&rsaquo;</span></a>
+				<a href="<?php the_permalink(); ?>" class="read-more-link"><span>Read More &rsaquo;</span></a>
 
 		<?php endwhile; // end of the loop. ?>
 		<?php wp_reset_query(); // resets the altered query back to the original ?>
 		</div>
+	
+		<div class="twitter">
+			<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+			<div id="secondary" class="widget-area" role="complementary">
+
+				<?php dynamic_sidebar( 'sidebar-2' ); ?>
+			<?php while ( have_posts() ) : the_post(); 
+					$follow_us_link = get_field('follow_us_link');
+				?>
+				<span class="follow-us"><?php echo $follow_us_link; ?></span>
+			<?php endwhile; ?>
+
+			</div>
+		</div>
+<?php endif; ?>
 	</div>
 </section>
+
+
 
 <?php get_footer(); ?>
